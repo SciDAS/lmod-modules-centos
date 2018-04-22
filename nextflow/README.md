@@ -46,9 +46,9 @@ docker run --rm \
 Upon completion the following files should be observed
 
 ```console
-$ ls -alh $(pwd)/1.8.0_171
--rw-r--r--  1 xxx  xxx   493B Apr 22 12:57 1.8.0_171.lua
--rw-r--r--  1 xxx  xxx   182M Apr 22 12:57 jdk1.8.0_171.tar.gz
+$ ls -alh $(pwd)/0.28.0
+-rw-r--r--  1 xxx  xxx   359B Apr 22 13:15 0.28.0.lua
+-rw-r--r--  1 xxx  xxx    27M Apr 22 13:15 nextflow-0.28.0.tar.gz
 ```
 
 ## Install
