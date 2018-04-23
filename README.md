@@ -38,6 +38,14 @@ Git is a fast, scalable, distributed revision control system with an unusually r
 
 - [git/2.17.0](git)
 
+## irods-icommands
+
+iRODS iCommands are Unix utilities that give users a command-line interface to operate on data in the iRODS system. There are commands related to the logical hierarchical filesystem, metadata, data object information, administration, rules, and the rule engine. iCommands provide the most comprehensive set of client-side standard iRODS manipulation functions.
+
+**default version**
+
+- [irods-icommands/4.1.11](irods-icommands)
+
 ## java
 
 Java Platform, Standard Edition (Java SE) lets you develop and deploy Java applications on desktops and servers. Java offers the rich user interface, performance, versatility, portability, and security that today's applications require.
