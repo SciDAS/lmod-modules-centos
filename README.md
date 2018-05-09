@@ -2,9 +2,9 @@
 
 **WORK IN PROGRESS**
 
-This work is complementory to the [slurm-in-docker](https://github.com/mjstealey/slurm-in-docker) project and provides the [Lmod](https://lmod.readthedocs.io/en/latest/#) module definitions and Lua scripts for a variety of packages.
+This work is complementory to the [slurm-in-docker](https://github.com/scidas/slurm-in-docker) project and provides the [Lmod](https://lmod.readthedocs.io/en/latest/#) module definitions and Lua scripts for a variety of packages.
 
-See [using lmod with slurm in docker](https://github.com/mjstealey/slurm-in-docker/blob/master/using-lmod-with-slurm-in-docker.md) in either repository for details on usage.
+See [using lmod with slurm in docker](https://github.com/scidas/slurm-in-docker/blob/master/using-lmod-with-slurm-in-docker.md) in either repository for details on usage.
 
 The version of Lmod being used predefines a few paths for which it will look for modulefiles that define the modules.
 
