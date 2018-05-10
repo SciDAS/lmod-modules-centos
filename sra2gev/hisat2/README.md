@@ -4,6 +4,6 @@ HISAT2 is a fast and sensitive alignment program for mapping next-generation seq
 
 ### Defaults for build are
 
-- `GIT_VERSION=2.1.0`
+- `HISAT2_VERSION=2.1.0`
 - `LMOD_MODULE_DIR=/opt/apps/Linux`
 
