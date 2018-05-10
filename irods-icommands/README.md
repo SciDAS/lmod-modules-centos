@@ -65,7 +65,7 @@ The generated files should be placed into the target systems **modules** (`/opt/
 ### Example installation 
 
 - Where `modules` and `modulefiles` directories are mapped to the target systems `/opt/apps/Linux` and `/opt/apps/modulefiles/Linux` directories respectively.
-- Assumes [lmod-modules-centos](https://github.com/mjstealey/lmod-modules-centos) repository is one level up for relative path commands.
+- Assumes [lmod-modules-centos](https://github.com/scidas/lmod-modules-centos) repository is one level up for relative path commands.
 
 ```
 mkdir -p modules/irods-icommands
