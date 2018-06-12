@@ -62,7 +62,7 @@ Nextflow enables scalable and reproducible scientific workflows using software c
 
 **default version**
 
-- [nextflow/0.28.0](nextflow)
+- [nextflow/0.30.1](nextflow)
 
 
 ## References
