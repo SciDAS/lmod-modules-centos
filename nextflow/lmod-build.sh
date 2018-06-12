@@ -6,11 +6,12 @@ _generate_lua() {
   cat >> /output/${NEXTFLOW_VERSION}.lua <<EOF
 help([[
     N E X T F L O W
-    version 0.28.0 build 4779
-    last modified 10-03-2018 12:13 UTC
+    version 0.30.1 build 4844
+    last modified 11-06-2018 08:29 UTC
     cite doi:10.1038/nbt.3820
     http://nextflow.io
 ]])
+local home    = os.getenv("HOME")
 local version = myModuleVersion()
 local base    = "${LMOD_MODULE_DIR}"
 local pkgName = myModuleName()
@@ -24,8 +25,8 @@ EOF
 source /etc/profile.d/java.sh
 mkdir -p ${LMOD_MODULE_DIR}/nextflow/nextflow-${NEXTFLOW_VERSION}
 curl -s https://get.nextflow.io | bash
-mv $HOME/.nextflow/ ${LMOD_MODULE_DIR}/nextflow/nextflow-0.28.0/
-mv /nextflow ${LMOD_MODULE_DIR}/nextflow/nextflow-0.28.0/
+mv $HOME/.nextflow/ ${LMOD_MODULE_DIR}/nextflow/nextflow-0.30.1/
+mv /nextflow ${LMOD_MODULE_DIR}/nextflow/nextflow-0.30.1/
 sed -i 's!$HOME/.nextflow!'${LMOD_MODULE_DIR}'/nextflow/nextflow-'${NEXTFLOW_VERSION}'/.nextflow!g' \
   ${LMOD_MODULE_DIR}/nextflow/nextflow-${NEXTFLOW_VERSION}/nextflow
 

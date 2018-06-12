@@ -1,7 +1,7 @@
 FROM lmod.base
 MAINTAINER Michael J. Stealey <stealey@renci.org>
 
-ENV NEXTFLOW_VERSION=0.28.0
+ENV NEXTFLOW_VERSION=0.30.1
 ENV LMOD_MODULE_DIR=/opt/apps/Linux
 
 RUN URL=$(curl -s https://lv.binarybabel.org/catalog-api/java/jdk8.txt?p=downloads.tgz) \
