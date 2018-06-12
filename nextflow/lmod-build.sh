@@ -18,6 +18,7 @@ local pkgName = myModuleName()
 local pkg     = pathJoin(base,pkgName,pkgName .. "-" .. version)
 prepend_path("PATH", pkg)
 prereq("java")
+setenv("NXF_HOME", pathJoin(home,".nextflow"))
 EOF
 }
 
