@@ -10,3 +10,8 @@ sra2gev/stringtie/1.3.3b
 sra2gev/trimmomatic/0.36
 
 build-and-move.sh
+
+**/*.lua
+**/*.tar.gz
+
+!*/irods-icommands/*

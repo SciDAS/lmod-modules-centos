@@ -34,7 +34,7 @@ fi
 mkdir -p ${LMOD_MODULE_DIR}/java
 cd ${LMOD_MODULE_DIR}/java
 TAR_GZ_FILE=$(echo $URL | rev | cut -d '/' -f 1 | rev)
-curl -LOH 'Cookie: oraclelicense=accept-securebackup-cookie' "${URL}"
+curl -k -LOH 'Cookie: oraclelicense=accept-securebackup-cookie' "${URL}"
 tar -xzf $TAR_GZ_FILE
 rm -f $TAR_GZ_FILE
 cd -
