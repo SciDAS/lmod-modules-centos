@@ -14,4 +14,4 @@ build-and-move.sh
 **/*.lua
 **/*.tar.gz
 
-!*/irods-icommands/*
+!irods-icommands/4.1.11/irods-icommands-4.1.11.tar.gz
